@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutSplitBottom from '@/components/navigation/NavbarLayoutSplitBottom/NavbarLayoutSplitBottom';
 import SplitHero from '@/components/sections/layouts/hero/SplitHero';
@@ -8,7 +8,6 @@ import ProcessRoadmap from '@/components/sections/layouts/roadmap/ProcessRoadmap
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import ExpandingGridTokenomics from '@/components/sections/layouts/tokenomics/ExpandingGridTokenomics';
 import FooterBase from '@/components/footer/FooterBase';
-
 export default function Home() {
   return (
     <SiteThemeProvider theme={{
