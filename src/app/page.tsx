@@ -63,9 +63,9 @@ export default function Home() {
       <div id="roadmap" data-section="roadmap" className="scroll-mt-24">
         <ProcessRoadmap
           items={[
-            { id: "phase1", title: "Research", description: "Conducting initial research to identify key areas for development." },
-            { id: "phase2", title: "Development", description: "Building the core products and features based on research findings." },
-            { id: "phase3", title: "Launch", description: "Official launch of the Peak platform to the public." }
+            { id: "phase1", title: "Research", description: "Conducting initial research to identify key areas for development.", image: "/images/research.png", items: [{ icon: "IconResearch", text: "Market analysis" }, { icon: "IconUser", text: "User interviews" }, { icon: "IconFeasibility", text: "Feasibility studies" }], reverse: false },
+            { id: "phase2", title: "Development", description: "Building the core products and features based on research findings.", image: "/images/development.png", items: [{ icon: "IconBuild", text: "Prototype" }, { icon: "IconIterate", text: "User feedback" }, { icon: "IconLaunch", text: "Ready for launch" }], reverse: true },
+            { id: "phase3", title: "Launch", description: "Official launch of the Peak platform to the public.", image: "/images/launch.png", items: [{ icon: "IconPublic", text: "Public beta" }, { icon: "IconScale", text: "Growth" }, { icon: "IconSupport", text: "Customer support" }], reverse: false }
           ]}/>
       </div>
       <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
