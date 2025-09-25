@@ -8,7 +8,7 @@ import ProcessRoadmap from '@/components/sections/layouts/roadmap/ProcessRoadmap
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import ExpandingGridTokenomics from '@/components/sections/layouts/tokenomics/ExpandingGridTokenomics';
 import FooterBase from '@/components/footer/FooterBase';
-import { IconResearch, IconUser, IconFeasibility, IconBuild, IconIterate, IconLaunch, IconPublic, IconScale, IconSupport } from 'lucide-react';
+import { IconUser, IconFeasibility, IconBuild, IconIterate, IconLaunch, IconPublic, IconScale, IconSupport } from 'lucide-react';
 export default function Home() {
   return (
     <SiteThemeProvider theme={{
@@ -64,7 +64,7 @@ export default function Home() {
       <div id="roadmap" data-section="roadmap" className="scroll-mt-24">
         <ProcessRoadmap
           items={[
-            { id: "phase1", title: "Research", description: "Conducting initial research to identify key areas for development.", image: "/images/research.png", items: [{ icon: IconResearch, text: "Market analysis" }, { icon: IconUser, text: "User interviews" }, { icon: IconFeasibility, text: "Feasibility studies" }], reverse: false },
+            { id: "phase1", title: "Research", description: "Conducting initial research to identify key areas for development.", image: "/images/research.png", items: [{ icon: IconUser, text: "User interviews" }, { icon: IconFeasibility, text: "Feasibility studies" }], reverse: false },
             { id: "phase2", title: "Development", description: "Building the core products and features based on research findings.", image: "/images/development.png", items: [{ icon: IconBuild, text: "Prototype" }, { icon: IconIterate, text: "User feedback" }, { icon: IconLaunch, text: "Ready for launch" }], reverse: true },
             { id: "phase3", title: "Launch", description: "Official launch of the Peak platform to the public.", image: "/images/launch.png", items: [{ icon: IconPublic, text: "Public beta" }, { icon: IconScale, text: "Growth" }, { icon: IconSupport, text: "Customer support" }], reverse: false }
           ]}/>
